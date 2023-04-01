@@ -1,0 +1,40 @@
+.about-bgImg-container {
+  @include bgImg(50vh, $main-bgImg-path);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .about-bio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 2rem;
+
+    h2 {
+      font-size: 2rem;
+      color: red;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.about {
+     padding: 2rem;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem; 
+     justify-content: center;
+     align-items: center;
+
+  .about-div{
+
+   background-color: #414141; 
+   padding: 2rem;
+   width:70% ;
+   border-bottom: 5px solid red;
+  }
+}
+
