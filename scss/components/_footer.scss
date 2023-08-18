@@ -1,0 +1,48 @@
+ .footer-social {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  .footer-social-link {
+    font-size: 2rem;
+  }
+  .footer-social-copy{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+  }
+   
+// about
+.vertical{
+  writing-mode: vertical-lr;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+  a{
+    padding: 0.3rem 0;
+  }
+}
+.footer-contact-social{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  gap: 1rem 0;
+ 
+
+  .contact-copy{
+    font-size: 1rem;
+
+  }
+
+  & a {
+    color: white;
+    padding: 0 0.3rem;
+    @include transition(1s);
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+ }
